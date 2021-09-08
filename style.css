@@ -282,6 +282,29 @@ header .navbar a:hover{
   padding-top: 16px;
 }
 
+.setps{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.setps .box{
+  flex:  2px;
+  padding: 2px;
+  text-align: center;
+}
+
+.setps .box img{
+  border-radius: 50%;
+  border: 16px solid #fff;
+  box-shadow: 4px 2px rgba(0,0,0,.1);
+}
+
+.setps .box h3{
+  font-size: 20px;
+  color: #333;
+  padding: 5px 10px;
+}
 
 
 
