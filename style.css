@@ -400,7 +400,63 @@ header .navbar a:hover{
   padding: 8px 0;
 }
 
+.order .row{
+  padding: 32px;
+  box-shadow: 0 8px 16px rgba(0,0,0,.1);
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  border-radius: 8px;
+}
 
+.order .row .image{
+  flex: 16 16 480px;
+}
+
+.order .row .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+
+}
+
+.order .row form{
+  flex: 1 1 800px;
+  padding: 16px;
+}
+
+.order .row form .inputbox{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.order .row form .inputbox input, .order .row form textarea{
+  padding: 8px;
+  margin: 16px 0;
+  font-size: 20px;
+  color: #333;
+  text-transform: none;
+  border: 1px solid rgba(0,0,0,.3);
+  border-radius: 8px;
+  width: 49%;
+}
+
+.order .row form textarea{
+  width: 100%;
+  resize: none;
+  height: 250px; 
+}
+
+.order .row form .btn{
+  background: none;
+}
+
+.order .row form .btn:hover{
+  background: var(--red);
+}
 
 
 
@@ -455,9 +511,13 @@ header .navbar a:hover{
 
 }
 
-@media(max-width:400px){
+@media(max-width:450px){
   html{
     font-size: 50%; 
+  }
+
+  .order .row form .inputbox input{
+    width: 100%;
   }
 }
 
