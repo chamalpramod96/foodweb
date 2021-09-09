@@ -435,19 +435,19 @@ header .navbar a:hover{
 
 .order .row form .inputbox input, .order .row form textarea{
   padding: 8px;
-  margin: 16px 0;
-  font-size: 20px;
+  margin: 6px 0;
+  font-size: 15px;
   color: #333;
   text-transform: none;
   border: 1px solid rgba(0,0,0,.3);
   border-radius: 8px;
-  width: 49%;
+  width: 46%;
 }
 
 .order .row form textarea{
   width: 100%;
   resize: none;
-  height: 250px; 
+  /* height: 400px;  */
 }
 
 .order .row form .btn{
@@ -458,9 +458,61 @@ header .navbar a:hover{
   background: var(--red);
 }
 
+.footer{
+  background: #000;
+  text-align: center;
+}
 
+.footer .share{
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
+.footer .credit{
+  padding: 32px 16px;
+  color: #eee;
+  font-weight: normal;
+  font-size: 15px;
+}
 
+.footer .credit span{
+  color: var(--red);
+}
+
+#scroll-top{
+  position: fixed;
+  top: -220%;
+  right: 32px;
+  padding: 8px 16px;
+  font-size: 40px;
+  background: var(--red);
+  color: #fff;
+  border-radius: 50%;
+  transition: 1s linear;
+  z-index: 5000;
+}
+
+#scroll-top.active{
+  top: calc(100% - 200px );
+}
+
+.loader-container{
+  position: fixed;
+  top: 0; left: 0;
+  z-index: 10000;
+  background: #f7f7f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.loader-container.fade-out{
+  top: -120%;
+}
 
 
 
