@@ -236,6 +236,11 @@ header .navbar a:hover{
   transform: translateY(100%);
 }
 
+.popular{
+    background: url(./images/home-bg1.png) no-repeat;
+  background-color: #ffffff;
+}
+
 .popular .box-container{
   display: flex;
   flex-wrap: wrap;
@@ -283,6 +288,10 @@ header .navbar a:hover{
 }
 
 .setps{
+  background-color: #ffffff;
+}
+
+.setps{
   display: flex;
   flex-wrap: wrap;
   gap: 2px;
@@ -304,6 +313,10 @@ header .navbar a:hover{
   font-size: 20px;
   color: #333;
   padding: 5px 10px;
+}
+
+.gallery{
+  background-color: #ffffff;
 }
 
 .gallery .box-container{
@@ -356,6 +369,10 @@ header .navbar a:hover{
   top: 0;
 }
 
+.review{
+  background-color: #ffffff;
+}
+
 .review .box-container{
   display: flex;
   flex-wrap: wrap;
@@ -398,6 +415,10 @@ header .navbar a:hover{
   font-size: 15px;
   color: #eee;
   padding: 8px 0;
+}
+
+.order{
+  background-color: #ffffff;
 }
 
 .order .row{
